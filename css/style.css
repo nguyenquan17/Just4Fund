@@ -1,25 +1,80 @@
-.site-brand{
-    color: #fff;
-    font-size: 2.4rem;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    opacity: 0.95;
+.site-brand {
+  color: #fff;
+  font-size: 2.4rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  opacity: 0.95;
 }
-.site-brand span{
-    font-weight: 300;
+.site-brand span {
+  font-weight: 300;
 }
 
 /* header */
-header{
-    min-height: 100vh;
-    padding-top: 7rem;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/header-bg.jpg) center/cover no-repeat;
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header-bg.jpg) center/cover no-repeat;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/header-bg.jpg) center/cover no-repeat;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    color: #fff;
-    text-align: center;
+header {
+  min-height: 100vh;
+  padding-top: 7rem;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.4)),
+      to(rgba(0, 0, 0, 0.4))
+    ),
+    url(../images/header-bg.jpg) center/cover no-repeat;
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/header-bg.jpg) center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../images/header-bg.jpg) center/cover no-repeat;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
 }
+
+/* home-slide */
+
+.home-slide .container-slide {
+  position: relative;
+}
+
+.home-slide .container-slide .box-view-campaign {
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
+  max-width: 550px;
+}
+
+.home-slide .container-slide .box-view-campaign .title-box {
+}
+
+.home-slide .container-slide .box-view-campaign .title-box p {
+  color: var(--gray-25);
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.home-slide .container-slide .box-view-campaign .desc-box {
+  color: var(--gray-25);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.home-slide .container-slide .box-view-campaign .btn-campaign {
+}
+
+
+
+

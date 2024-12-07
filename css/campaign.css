@@ -1,0 +1,304 @@
+/*Last thing remaining is to add transitions*/
+.campaign-banner .campaign-banner-content {
+  display: flex;
+  gap: 70px;
+}
+.campaign-banner .campaign-banner-content .campaign-banner-left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 50%;
+}
+
+.campaign-banner .campaign-banner-content .campaign-banner-left .slider {
+  display: flex;
+  gap: 10px;
+}
+
+.campaign-banner .campaign-banner-content .campaign-banner-left .slider {
+  display: flex;
+  gap: 10px;
+}
+
+.campaign-banner .campaign-banner-content .campaign-banner-right {
+  max-width: 50%;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .top {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .top
+  .title {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .top
+  .des {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .top
+  .extra-content {
+  display: flex;
+  gap: 10px;
+}
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .top
+  .extra-content
+  .right
+  .title {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: var(--gray-800);
+}
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .top
+  .extra-content
+  .right
+  .content {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-500);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .warp-avlb {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .bottom
+  .warp-avlb
+  .avlb
+  .number {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .bottom
+  .warp-avlb
+  .avlb
+  .text-number {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .wrap-box-right
+  .bottom
+  .warp-avlb
+  .backer {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .line-ablb {
+  height: 12px;
+  background-color: var(--brand-600);
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .flexible {
+  display: flex;
+  gap: 10px;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .flexible
+  .percent {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .flexible
+  .flexible-link {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+  color: var(--gray-800);
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .btn-pick-perk {
+  margin-top: 24px;
+  width: 100%;
+  height: 48px;
+  padding: 12px 168px 12px 168px;
+  gap: 6px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: var(--brand-600);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .container-btn-share {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.campaign-banner
+  .campaign-banner-content
+  .campaign-banner-right
+  .bottom
+  .container-btn-share
+  .btn-share {
+  height: 48px;
+  gap: 6px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: 1px solid var(--gray-300);
+  width: 100%;
+  max-width: 50%;
+  cursor: pointer;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

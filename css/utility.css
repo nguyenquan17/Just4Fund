@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif !important;
 }
 h1,
 h2,
@@ -27,6 +27,16 @@ input[type="submit"] {
   max-width: 1320px;
   padding: 0 1rem;
   margin: 0 auto;
+}
+
+.item-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 .flex {
   display: -webkit-box;
