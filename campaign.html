@@ -125,51 +125,139 @@
     <!-- end of featured section -->
 
     <!-- services section -->
-    <section id=" services" class="py-4">
+    <section id="tab-nav" class="campaign-content py-4 ">
         <div class="container">
-            <div class="title-wrap">
-                <span class="sm-title">know about services that we offer</span>
-                <h2 class="lg-title">Our services</h2>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="CAMPAIGN-tab" data-bs-toggle="tab"
+                        data-bs-target="#CAMPAIGN-ITEM" type="button" role="tab" aria-controls="CAMPAIGN"
+                        aria-selected="true">CAMPAIGN</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="REWARDS-tab" data-bs-toggle="tab" data-bs-target="#REWARDS-ITEM"
+                        type="button" role="tab" aria-controls="REWARDS" aria-selected="false">REWARDS</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="RATING-tab" data-bs-toggle="tab" data-bs-target="#RATING-ITEM"
+                        type="button" role="tab" aria-controls="RATING" aria-selected="false">RATING</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="FAQ-tab" data-bs-toggle="tab" data-bs-target="#FAQ-ITEM" type="button"
+                        role="tab" aria-controls="FAQ" aria-selected="false">FAQ</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="UPDATES-tab" data-bs-toggle="tab" data-bs-target="#UPDATES-ITEM"
+                        type="button" role="tab" aria-controls="UPDATES" aria-selected="false">UPDATES
+                        <span>2</span>
+                    </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="COMMENTS-tab" data-bs-toggle="tab" data-bs-target="#COMMENTS-ITEM"
+                        type="button" role="tab" aria-controls="COMMENTS" aria-selected="false">COMMENTS
+                        <span>2</span></button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="COMMUNITY-tab" data-bs-toggle="tab" data-bs-target="#COMMUNITY-ITEM"
+                        type="button" role="tab" aria-controls="COMMUNITY" aria-selected="false">COMMUNITY</button>
+                </li>
+
+            </ul>
+            <div class="tab-content tab-selected-campaign" id="myTabContent">
+                <div class="tab-pane fade show active" id="CAMPAIGN-ITEM" role="tabpanel"
+                    aria-labelledby="campaign-tab">
+                    <div class="tab-pane-main">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="available-rewards">
+                                    <div class="top">Available rewards</div>
+                                    <div class="bottom">
+                                        <div class="wrap-item active">
+                                            <div>Endurance-Bundle</div>
+                                            <div>USD $ 388 | 10 items included</div>
+                                        </div>
+                                        <div class="wrap-item">
+                                            <div>Endurance-Bundle</div>
+                                            <div>USD $ 388 | 10 items included</div>
+                                        </div>
+                                        <div class="wrap-item">
+                                            <div>Endurance-Bundle</div>
+                                            <div>USD $ 388 | 10 items included</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-9">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <div class="warp-content-main">
+                                            <div class="box-item">
+                                                <div class="title">Title</div>
+                                                <div class="des">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500s, when an unknown printer took a galley of
+                                                    type
+                                                    and
+                                                    scrambled it to make a type specimen book.</div>
+                                                <img src="./images/campaign/img-tab-campaign.png" />
+                                            </div>
+                                            <div class="box-item">
+                                                <div class="title">Title</div>
+                                                <div class="des">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500s, when an unknown printer took a galley of
+                                                    type
+                                                    and
+                                                    scrambled it to make a type specimen book.</div>
+                                                <img src="./images/campaign/img-tab-campaign.png" />
+                                            </div>
+                                            <div class="box-item">
+                                                <div class="title">Title</div>
+                                                <div class="des">Lorem Ipsum is simply dummy text of the printing and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy
+                                                    text ever since the 1500s, when an unknown printer took a galley of
+                                                    type
+                                                    and
+                                                    scrambled it to make a type specimen book.</div>
+                                                <img src="./images/campaign/img-tab-campaign.png" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="wrap-banner-main">
+                                            <div class="box-banner-main">
+                                                <div class="title">CHOOSE YOUR PERKS</div>
+                                                <img src="./images/campaign/img-choose-tab-campaign.png" />
+                                                <div class="box-content">
+                                                    <div class="box-title">Endurance-Bundle</div>
+                                                    <div class="box-des">Save 31% on the Endurance Bundle for just $388!
+                                                    </div>
+                                                    <div class="box-item">
+                                                        <p>Included Items</p>
+                                                        <ul class="ul-list">
+                                                            <li>Remote Controller</li>
+                                                            <li>Pikaboost 2</li>
+                                                            <li>158Wh battery</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="REWARDS-ITEM" role="tabpanel" aria-labelledby="rewards-tab">b</div>
+                </div>
             </div>
-
-            <div class="services-row">
-                <div class="services-item">
-                    <span class="services-icon">
-                        <i class="fas fa-hotel"></i>
-                    </span>
-                    <h3>Luxurious Hotel</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Quidem quo, totam repellat
-                        velit, dignissimos sequi error a minima architecto fugit nisi dolorum
-                        repellendus?</p>
-                    <a href="#" class="btn">Read more</a>
-                </div>
-
-                <div class="services-item">
-                    <span class="services-icon">
-                        <i class="fas fa-map-marked-alt"></i>
-                    </span>
-                    <h3>Trave Guide</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Quidem quo, totam repellat
-                        velit, dignissimos sequi error a minima architecto fugit nisi dolorum
-                        repellendus?</p>
-                    <a href="#" class="btn">Read more</a>
-                </div>
-
-                <div class="services-item">
-                    <span class="services-icon">
-                        <i class="fas fa-money-bill"></i>
-                    </span>
-                    <h3>Suitable Price</h3>
-                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Quidem quo, totam repellat
-                        velit, dignissimos sequi error a minima architecto fugit nisi dolorum
-                        repellendus?</p>
-                    <a href="#" class="btn">Read more</a>
-                </div>
-            </div>
-        </div>
     </section>
     <!-- end of services section -->
 
