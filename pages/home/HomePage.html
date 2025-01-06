@@ -68,6 +68,10 @@
 
     /* --------------------------------------------------------------------------------------- */
     /* banner  */
+    .home__banner .banner__img {
+      position: absolute;
+    }
+
     .home__banner .banner__img img {
       opacity: 0.9;
       backdrop-filter: blur(4px);
@@ -275,6 +279,42 @@
       row-gap: 0.75rem;
     }
 
+
+    @media only screen and (max-width: 991.98px) {
+
+      /* --------------------------------------------------------------------------------------- */
+      /* banner  */
+      .home__banner .banner__img {
+        position: relative;
+      }
+
+      .home__banner .banner__img img {
+        opacity: 0.9;
+        backdrop-filter: blur(4px);
+      }
+
+      .home__banner .banner__img .coating {
+        opacity: 0;
+      }
+
+      .home__banner .banner__wrapper .banner__content {
+        column-gap: 10rem;
+        row-gap: 1.875rem;
+        padding-top: unset;
+        padding-bottom: unset;
+      }
+
+      .banner__title {
+        color: var(--color-gray-950);
+      }
+
+
+      .banner__info {
+        max-width: unset;
+        padding-bottom: 1.25rem;
+      }
+    }
+
     /* --------------------------------------------------------------------------------------- */
     @media only screen and (min-width: 576px) and (max-width: 767.98px) {
       .home__categories .row {
@@ -348,7 +388,7 @@
 
 <body>
   <section class="home__banner position-relative">
-    <div class="banner__img position-absolute top-0 right-0 bottom-0 left-0 w-100">
+    <div class="banner__img top-0 right-0 bottom-0 left-0 w-100">
       <img class="w-100 h-100 object-fit-cover" src="../../assets/images/banner/home-banner.jpg" alt="barber-shop"
         loading="lazy" />
       <div class="coating position-absolute top-0 right-0 bottom-0 left-0 w-100 h-100"></div>
@@ -364,7 +404,7 @@
               is dedicated to providing professional service and great style
               for all, without breaking the bank.
             </p>
-            <a href="/campaign" class="btn btn-2" type="button">View campaign</a>
+            <a href="/campaign" class="btn btn-2 d-none d-lg-block " type="button">View campaign</a>
           </div>
           <div class="banner__info">
             <div class="info__card border-md lh-base">
@@ -386,7 +426,8 @@
                 <span class="fs-medium fw-bold">3 <span class="fw-normal">days left</span></span>
               </div>
             </div>
-            <div class="info__img overflow-hidden d-none d-sm-flex align-items-center justify-content-between">
+            <a href="/campaign" class="btn btn-2 d-block d-lg-none " type="button">View campaign</a>
+            <div class="info__img overflow-hidden d-none d-lg-flex align-items-center justify-content-between">
               <button>
                 <img class="active h-100 w-100 object-fit-cover border-sm" src="../../assets/images/banner/info-1.jpg"
                   alt="banner-1" loading="lazy" />
@@ -1166,7 +1207,7 @@
   <section class="home__main home__categories home__section__margin">
     <div class="container container-padding-52 text-center">
       <h3 class="fs-3xl fw-semibold lh-sm">Our categories</h3>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5">
         <div class="col">
           <div class="home__category fs-medium fw-medium lh-base border-md">
             Art
