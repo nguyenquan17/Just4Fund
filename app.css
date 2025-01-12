@@ -45,7 +45,6 @@
   --color-error-900: #7a271a;
   --color-error-950: #55160c;
 
-
   --color-warning-25: #fffcf5;
   --color-warning-50: #fffaeb;
   --color-warning-100: #fef0c7;
@@ -128,8 +127,8 @@ button {
 }
 
 #header {
-  /* position: sticky; */
-  position: fixed;
+  position: sticky;
+  /* position: fixed; */
   top: 0;
   left: 0;
   right: 0;

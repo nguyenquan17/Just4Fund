@@ -9,31 +9,31 @@
 /* text  */
 /* font-size  */
 .fs-xs {
-  font-size: calc(var(--font-size-body) * 0.75); /* 12 */
+  font-size: calc(1rem * 0.75) !important; /* 12 */
 }
 .fs-small {
-  font-size: calc(var(--font-size-body) * 0.875); /* 14 */
+  font-size: calc(1rem * 0.875) !important; /* 14 */
 }
 .fs-medium {
-  font-size: calc(var(--font-size-body) * 1.125); /* 18 */
+  font-size: calc(1rem * 1.125) !important; /* 18 */
 }
 .fs-2xl {
-  font-size: calc(var(--font-size-body) * 1.5); /* 24 */
+  font-size: calc(1rem * 1.5) !important; /* 24 */
 }
 .fs-3xl {
-  font-size: calc(var(--font-size-body) * 1.875); /* 30 */
+  font-size: calc(1rem * 1.875) !important; /* 30 */
 }
 .fs-4xl {
-  font-size: calc(var(--font-size-body) * 2.25); /* 36 */
+  font-size: calc(1rem * 2.25) !important; /* 36 */
 }
 .fs-5xl {
-  font-size: calc(var(--font-size-body) * 3); /* 48 */
+  font-size: calc(1rem * 3) !important; /* 48 */
 }
 .fs-6xl {
-  font-size: calc(var(--font-size-body) * 3.75); /* 60 */
+  font-size: calc(1rem * 3.75) !important; /* 60 */
 }
 .fs-7xl {
-  font-size: calc(var(--font-size-body) * 4.5); /* 72 */
+  font-size: calc(1rem * 4.5) !important; /* 72 */
 }
 
 /* font weight  */
@@ -78,6 +78,7 @@
 .btn {
   padding: 0.6875rem 1.25rem;
   border-radius: var(--border-radius-md);
+  font-size: var(--font-size-body);
   font-weight: 600;
   line-height: 1.5;
 }
@@ -189,9 +190,36 @@
   border: 1px solid var(--color-gray-300);
 }
 /* container  */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   .text-md-nowrap {
     text-wrap: nowrap;
+  }
+  .fs-lg-xs {
+    font-size: calc(1rem * 0.75) !important; /* 12 */
+  }
+  .fs-lg-small {
+    font-size: calc(1rem * 0.875) !important; /* 14 */
+  }
+  .fs-lg-medium {
+    font-size: calc(1rem * 1.125) !important; /* 18 */
+  }
+  .fs-lg-2xl {
+    font-size: calc(1rem * 1.5) !important; /* 24 */
+  }
+  .fs-lg-3xl {
+    font-size: calc(1rem * 1.875) !important; /* 30 */
+  }
+  .fs-lg-4xl {
+    font-size: calc(1rem * 2.25) !important; /* 36 */
+  }
+  .fs-lg-5xl {
+    font-size: calc(1rem * 3) !important; /* 48 */
+  }
+  .fs-lg-6xl {
+    font-size: calc(1rem * 3.75) !important; /* 60 */
+  }
+  .fs-lg-7xl {
+    font-size: calc(1rem * 4.5) !important; /* 72 */
   }
 }
 @media only screen and (min-width: 1440px) {
