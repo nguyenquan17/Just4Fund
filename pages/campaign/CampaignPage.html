@@ -23,6 +23,9 @@
         opacity: 0.08;
         border-radius: 99rem;
       }
+      .btn.btn-1 a {
+        color: var(--color-white);
+      }
 
       /* --------------------------------------------------------------------------------------- */
       /* campaign card  */
@@ -540,7 +543,7 @@
         color: var(--color-text-icon-second);
       }
       .comments__tab .user__label {
-        color: #d1d5db;
+        color: var(--color-border-divider-base);
       }
       .comments__tab .comment__date {
         padding: 2px 8px;
@@ -555,7 +558,7 @@
       .comments__tab .content .reply__content::before {
         left: 0;
         width: 0.375rem;
-        background-color: #d1d5db;
+        background-color: var(--color-border-divider-base);
       }
 
       /* tab 7 */
@@ -940,8 +943,10 @@
           </div>
 
           <div class="card__btn">
-            <button class="btn btn-1 w-100 text-uppercase">
-              PICK YOUR PERK
+            <button class="btn btn-1 w-100">
+              <a href="/rewards" class="d-block w-100 h-100 text-uppercase">
+                PICK YOUR PERK
+              </a>
             </button>
             <div class="d-flex justify-content-between">
               <button

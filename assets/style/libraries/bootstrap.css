@@ -203,6 +203,9 @@
   .fs-lg-medium {
     font-size: calc(1rem * 1.125) !important; /* 18 */
   }
+  .fs-lg-6 {
+    font-size: calc(1rem * 1) !important;
+  }
   .fs-lg-2xl {
     font-size: calc(1rem * 1.5) !important; /* 24 */
   }
