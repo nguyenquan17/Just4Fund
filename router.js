@@ -4,7 +4,7 @@ const homeUrl = "./pages/home/HomePage.html";
 const campaignUrl = "./pages/campaign/CampaignPage.html";
 const rewardsUrl = "./pages/rewards/RewardsPage.html";
 const rewardsDetailUrl = "./pages/rewards/RewardDetailPage.html";
-
+const paymentMethodUrl = "./pages/payment/PaymentMethod.html";
 export const layoutDefault = {
   Header: headerUrl,
   Footer: footerUrl,
@@ -19,6 +19,10 @@ const routes = [
   {
     path: "/reward-detail",
     component: () => Promise.resolve(rewardsDetailUrl),
+  },
+  {
+    path: "/payment-method",
+    component: () => Promise.resolve(paymentMethodUrl),
   },
 ];
 

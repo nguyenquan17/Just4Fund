@@ -1,13 +1,13 @@
 import routes, { layoutDefault } from "./router.js";
 import { SMOOTH } from "./constant.js";
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/service-worker.js", {
-      scope: "/",
-    });
-  });
-}
+// if ("serviceWorker" in navigator) {
+//   window.addEventListener("load", () => {
+//     navigator.serviceWorker.register("/service-worker.js", {
+//       scope: "/",
+//     });
+//   });
+// }
 
 // slider
 export function handleSlide(event, callback) {
